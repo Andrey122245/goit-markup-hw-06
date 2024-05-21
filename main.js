@@ -1,13 +1,18 @@
-// document.addEventListener("DOMContentLoaded", function() {
-//     const footerContainer = document.querySelector('.modal-overlay');
-//     var btn =  document.querySelector('.close-black');
-//     btn.addEventListener('click',function(e){
-//         e.preventDefault();
-//         footerContainer.classList.toggle('is-open');
-//         // if (btn.body.classList.contains('is-open')) {
-//             setTimeout(function() {
-//                 footerContainer.classList.add('is-open');
-//             }, 5000);
-//         // }
-//     });
-// }); 
+document.addEventListener("DOMContentLoaded", function() {
+    const footerContainer = document.querySelector('.modal-overlay');
+    var btn =  document.querySelector('.solutions-button');
+    var btnFooter =  document.querySelector('.footer-subscribe-button');
+    var btnCloseModal = document.querySelector('.form-exit-decor');
+    btn.addEventListener('click',function(e){
+        e.preventDefault();
+        footerContainer.classList.toggle('active');
+    });
+    btnFooter.addEventListener('click',function(e){
+        e.preventDefault();
+        footerContainer.classList.toggle('active');
+    });
+    btnCloseModal.addEventListener('click',function(e){
+        e.preventDefault();
+        footerContainer.classList.toggle('active');
+    });
+}); 

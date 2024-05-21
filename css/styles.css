@@ -464,6 +464,10 @@ img {
   text-align: center;
   align-items: center;
 }
+.modal-overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
 .modal-overlay {
   position: fixed;
   top: 0;
