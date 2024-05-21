@@ -121,7 +121,7 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url("../images/mob-img/hero-bg-mob-x1.jpg");
+    url("../images/phone-img/hero-bg-mob-x1.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -856,7 +856,7 @@ img {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url("../images/tab-img/hero-bg-tab-x1.jpg");
+      url("../images/tablet-img/hero-bg-tab-x1.jpg");
     max-width: 768px;
     padding: 112px 0 112px;
   }
